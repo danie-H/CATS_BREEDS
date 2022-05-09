@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { StyledCardComponent } from './StyledCards';
 
-import { styled } from '@mui/system';
+import { Box, styled } from '@mui/system';
 import { fetchRandomFact } from '../../../lib/catsFetcher';
 import { 
     Card,
@@ -9,7 +9,8 @@ import {
     Typography,
     CardActionArea,
     Button,
-    Tooltip
+    Tooltip,
+    FormGroup
 } from '@mui/material'
 
 const StyledTooltip = styled(({ className, ...props }) => (

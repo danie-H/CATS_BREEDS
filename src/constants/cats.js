@@ -1,0 +1,1 @@
+export const CAT_ORIGIN = ["Hybrid", "Crossbreed", "Natural", "Mutation"];

@@ -6,9 +6,12 @@ export const StyledHomePage = styled.div`
         flex-direction: row;
         justify-content: center;
     }
-    & .pagination {
+    & .paginationStack {
         margin-top: 2rem;
         align-items: center;
+    }
+    & .appBar{
+        Background-color: #03241d;
     }
 `
 

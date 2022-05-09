@@ -5,6 +5,7 @@ export const StyledCardComponent = styled.div`
         height: auto;
         & .cardArea {
             height: 15em;
+            background-color: #a5e0d4;
         }
     }
 `
